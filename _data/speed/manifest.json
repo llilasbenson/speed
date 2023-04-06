@@ -1,0 +1,48 @@
+{
+    "@context": "http://iiif.io/api/presentation/3/context.json",
+    "id": "https://llilasbenson.github.io/speed/speed/manifest.json",
+    "type": "Manifest",
+    "label": { "en": [ "Speed" ] },
+    "homepage": [
+      {
+        "id": "https://archive.org/details/speed-of-darkness_202303",
+        "type": "Text",
+        "label": { "en": [ "Speed" ] },
+        "format": "text/html"
+      }
+    ],
+    "provider": [
+      {
+        "id": "https://archive.org/",
+        "type": "Agent",
+        "label": { "en": [ "Internet Archive" ] }
+      }
+    ],
+    "items": [
+      {
+        "id": "https://llilasbenson.github.io/speed/speed/canvas-1/canvas",
+        "type": "Canvas",
+        "duration": 371.0,
+        "items": [
+          {
+            "id": "https://llilasbenson.github.io/speed/speed/canvas-1/paintings",
+            "type": "AnnotationPage",
+            "items": [
+              {
+                "id": "https://llilasbenson.github.io/speed/speed/canvas-1/painting",
+                "type": "Annotation",
+                "motivation": "painting",
+                "body": {
+                  "id": "https://ia801604.us.archive.org/21/items/speed-of-darkness_202303/Speed%20of%20Darkness.mp3",
+                  "type": "Sound",
+                  "format": "audio/mp3",
+                    "duration": 371.0
+                },
+                "target": "https://llilasbenson.github.io/speed/speed/canvas-1/canvas"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+} 
