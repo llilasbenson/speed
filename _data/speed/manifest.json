@@ -23,6 +23,32 @@
         "id": "https://llilasbenson.github.io/speed/speed/canvas-1/canvas",
         "type": "Canvas",
         "duration": 371.0,
+        "annotations": [
+          
+          {
+            "type": "AnnotationPage",
+            "id": "https://llilasbenson.github.io/speed/annotations/speed-canvas-1-first-poem.json",
+            "label": {
+              "none": ["first poem"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://llilasbenson.github.io/speed/annotations/speed-canvas-1-introduction.json",
+            "label": {
+              "none": ["introduction"]
+            }
+          }
+          ,
+          {
+            "type": "AnnotationPage",
+            "id": "https://llilasbenson.github.io/speed/annotations/speed-canvas-1-second-poem.json",
+            "label": {
+              "none": ["second poem"]
+            }
+          }
+        ],
         "items": [
           {
             "id": "https://llilasbenson.github.io/speed/speed/canvas-1/paintings",
